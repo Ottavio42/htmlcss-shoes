@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Jomhuria', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 html {
 	scroll-behavior: smooth;
@@ -41,6 +41,7 @@ header {
 /* Corpo */
 section{
     height: 100vh;
+    position: relative;
 }
 .parte-rossa{
     background-color: #ff0000;
@@ -50,4 +51,23 @@ section{
 }
 .parte-gialla{
     background-color: #ffff00;
+}
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.box h2{
+    text-align: center;
+    font-size: 50px;
+}
+.img{
+    height: 500px;
+}
+.scritta-gialla{
+    color: #ffff00;
+}
+.scritta-verde{
+    color: #008000;
 }
