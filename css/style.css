@@ -2,10 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Jomhuria', cursive;
+}
+html {
+	scroll-behavior: smooth;
 }
 /* header */
-
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+}
+.menu,.menu li,.menu li a{
+    display: inline-block;
+}
+.menu li{
+    margin: 20px;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu li a{
+    text-decoration: none;
+	color: black;
+	font-size: 25px;
+    font-weight: bolder;
+    width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+    background-color: #ffffff;
+    border-radius: 50%; 
+   
+}
 /* Corpo */
 section{
     height: 100vh;
+}
+.parte-rossa{
+    background-color: #ff0000;
+}
+.parte-verde{
+    background-color: #008000;
+}
+.parte-gialla{
+    background-color: #ffff00;
 }
