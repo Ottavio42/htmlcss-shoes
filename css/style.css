@@ -36,7 +36,11 @@ header {
 	text-align: center;
     background-color: #ffffff;
     border-radius: 50%; 
+    box-shadow: 2px 4px #888888;;
    
+}
+.menu li a:hover {
+	background-color: #00f5e9;
 }
 /* Corpo */
 section{
